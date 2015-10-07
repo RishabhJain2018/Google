@@ -105,3 +105,9 @@ AUTHENTICATION_BACKENDS = (
    'social.backends.twitter.TwitterOAuth',
    'django.contrib.auth.backends.ModelBackend',
 )
+
+
+LOGIN_REDIRECT_URL = '/'
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "47584242033-hi9vg5hif8bg2np7r47r32p1gg3m0cvk.apps.googleusercontent.com"
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "t_McEjQ0jnKrFJ_LcCtQFcc-"
